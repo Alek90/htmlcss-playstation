@@ -5,3 +5,11 @@ body{
 button{
     border-radius: 20px;
 }
+
+
+
+/* media */
+
+main .row img{
+    width: 100%;
+}

@@ -6,10 +6,43 @@ button{
     border-radius: 20px;
 }
 
+/* header */
+
+.top_bar img{
+    margin: 10%;
+}
 
 
 /* media */
 
 main .row img{
     width: 100%;
+}
+
+
+/* footer */
+
+footer{
+    background-color: blue;
+    padding: 50px 15px;
+}
+
+footer .logo{
+    width: 60px;
+}
+
+.image_subtitle{
+    padding-top: 26px;
+}
+
+footer .globo{
+    width: 13px;
+}
+
+footer img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
 }

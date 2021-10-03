@@ -25,6 +25,7 @@ main .row img{
 footer{
     background-color: blue;
     padding: 50px 15px;
+    font-weight: 600;
 }
 
 footer .logo{

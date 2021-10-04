@@ -114,6 +114,20 @@ section.news{
     border: none;
 }
 
+/* PlayStationPlus */
+
+.playstationplus .row{
+    background-color: gray;
+}
+
+.plus_logo{
+    width: 75%;
+}
+
+.playstationplus a{
+    background-color: lightgray;
+}
+
 /* media */
 
 main .row img{

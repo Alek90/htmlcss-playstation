@@ -13,6 +13,29 @@ button{
 }
 
 
+/* main */
+
+/* jumbo */
+
+.jumbotron{
+    padding: 150px 0;
+}
+
+.jumbo_img{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbo_img img{
+    width: 25%;
+}
+
+
 /* media */
 
 main .row img{

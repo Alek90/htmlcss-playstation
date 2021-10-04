@@ -91,6 +91,19 @@ section.news{
 
 /* news - game */
 
+.news > .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.news .container h3, .news .container h4{
+    padding-bottom: 25px;
+}
+
+.new_game{
+    padding-bottom: 25px;
+}
+
 .new_game img{
     border-radius: 25px;
 }

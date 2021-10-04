@@ -110,7 +110,9 @@ section.news{
 
 /* PS4 */
 
-
+.card{
+    border: none;
+}
 
 /* media */
 

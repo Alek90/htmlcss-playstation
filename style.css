@@ -2,14 +2,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button{
-    border-radius: 20px;
-}
+
+
 
 /* header */
 
 .top_bar img{
-    margin: 10%;
+    width: 85px;
+    margin: 10px;
+}
+
+li.nav-item > img{
+    width: 25px;
 }
 
 
@@ -17,22 +21,23 @@ button{
 
 /* jumbo */
 
-.jumbotron{
-    padding: 150px 0;
-}
 
 .jumbo_img{
     width: 100%;
-    height: 100vh;
     background-color: black;
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 250px 25px 85px;
 }
 
 .jumbo_img img{
     width: 25%;
+}
+
+.jumbotron button{
+    background-color: orangered;
 }
 
 

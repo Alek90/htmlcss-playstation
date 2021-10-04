@@ -45,6 +45,23 @@ li.nav-item > img{
 }
 
 
+/* console */
+
+.txt{
+    width: 50%;
+    flex-grow: 1;
+}
+
+.img_txt{
+    width: 50%;
+    flex-grow: 1;
+}
+
+.img_txt img{
+    width: 100%;
+}
+
+
 /* media */
 
 main .row img{

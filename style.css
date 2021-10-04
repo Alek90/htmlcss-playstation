@@ -40,6 +40,10 @@ li.nav-item > img{
     background-color: orangered;
 }
 
+.jumbo_proposals img{
+    border-radius: 25px;
+}
+
 
 /* media */
 

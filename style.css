@@ -120,13 +120,18 @@ section.news{
     background-color: gray;
 }
 
-.plus_logo{
+.plus_logo, .now_logo{
     width: 50%;
-    
 }
 
 .playstationplus a{
     background-color: lightgray;
+}
+
+/* PlayStationNow */
+
+.playstationnow{
+    background-color: midnightblue;
 }
 
 /* media */

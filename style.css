@@ -7,6 +7,10 @@ body{
 
 /* header */
 
+.top_bar{
+    background-color: black;
+}
+
 .top_bar img{
     width: 85px;
     margin: 10px;
@@ -39,12 +43,19 @@ li.nav-item > img{
 }
 
 .jumbotron button, .takes_two_cover button{
-    background-color: orangered;
+    background-color: rgb(205, 61, 15);
 }
+
 
 .jumbo_proposals img{
     border-radius: 25px;
 }
+
+.img-thumbnail{
+    border-color: rgb(48, 140, 215);
+    border-width: 2px;
+}
+
 
 
 /* PS_5 */
@@ -87,7 +98,7 @@ li.nav-item > img{
 /* news - takes two */
 
 section.news{
-    background-color: black;
+    background-color: rgb(31, 31, 31);
 }
 
 .takes_two_cover{
@@ -128,7 +139,7 @@ section.news{
 /* PlayStationPlus */
 
 .playstationplus .row{
-    background-color: gray;
+    background-color: rgb(190, 188, 187);
 }
 
 .plus_logo, .now_logo{
@@ -136,7 +147,7 @@ section.news{
 }
 
 .playstationplus a{
-    background-color: lightgray;
+    background-color: rgb(217, 218, 220);
 }
 
 /* PS_store */
@@ -148,20 +159,15 @@ section.news{
 /* PlayStationNow */
 
 .playstationnow{
-    background-color: midnightblue;
+    background-color: rgb(22, 28, 59);
 }
 
-/* PS_social */
-
-main .row img{
-    width: 100%;
-}
 
 
 /* footer */
 
 footer{
-    background-color: blue;
+    background-color: rgb(0, 67, 156);
     padding: 50px 15px;
 }
 
@@ -194,6 +200,10 @@ footer ul{
 
 
 /* utility */
+
+main img{
+    width: 100%;
+}
 
 .section_title{
     margin-bottom: 50px;

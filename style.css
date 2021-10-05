@@ -45,7 +45,7 @@ li.nav-item > img{
 }
 
 
-/* console */
+/* PS_5 */
 
 .txt{
     width: 43%;
@@ -63,7 +63,11 @@ li.nav-item > img{
 
 .appurtenance{
     width: calc(100% / 5);
-    padding: 25px;
+    padding: 20px;
+}
+
+.appurtenance.selected{
+    border-bottom:1px solid black;
 }
 
 .appurtenance_img{
@@ -108,7 +112,7 @@ section.news{
     border-radius: 25px;
 }
 
-/* PS4 */
+/* PS_4 */
 
 .card{
     border: none;
@@ -128,7 +132,7 @@ section.news{
     background-color: lightgray;
 }
 
-/* ps_store */
+/* PS_store */
 
 .discount{
     padding-bottom: 20px;
@@ -140,7 +144,7 @@ section.news{
     background-color: midnightblue;
 }
 
-/* media */
+/* PS_social */
 
 main .row img{
     width: 100%;
@@ -173,4 +177,17 @@ footer img{
 
 ul{
     list-style: none;
+}
+
+
+
+/* utility */
+
+span{
+    font-size: 0.4rem;
+    vertical-align: text-top;
+}
+
+footer, main > section:not(.jumbotron){
+    margin-top: 75px;
 }

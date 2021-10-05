@@ -70,6 +70,10 @@ li.nav-item > img{
     border-bottom:1px solid black;
 }
 
+.filtered{
+    opacity: 75%;
+}
+
 .appurtenance_img{
     padding: 20px;
 }
@@ -116,6 +120,7 @@ section.news{
 
 .card{
     border: none;
+    width: calc(100% / 3);
 }
 
 /* PlayStationPlus */
@@ -156,11 +161,10 @@ main .row img{
 footer{
     background-color: blue;
     padding: 50px 15px;
-    font-weight: 600;
 }
 
 footer .logo{
-    width: 60px;
+    width: 100px;
 }
 
 .image_subtitle{
@@ -168,20 +172,30 @@ footer .logo{
 }
 
 footer .globo{
-    width: 13px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 0.8rem;
 }
 
 footer img{
     width: 100%;
 }
 
-ul{
+footer ul{
     list-style: none;
+    line-height: 2rem;
+}
+
+.sie_img{
+    min-width: 100px;
 }
 
 
-
 /* utility */
+
+.section_title{
+    margin-bottom: 50px;
+}
 
 span{
     font-size: 0.4rem;
@@ -190,4 +204,18 @@ span{
 
 footer, main > section:not(.jumbotron){
     margin-top: 75px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 767px) {
+    .PS_5 .appurtenance{
+        width: calc(100% / 3);
+        padding: 13px;
+    }
+
+    .card{
+        width: 100%;
+    }
 }

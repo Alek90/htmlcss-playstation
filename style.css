@@ -12,6 +12,8 @@ body{
     margin: 10px;
 }
 
+
+
 li.nav-item > img{
     width: 25px;
 }
@@ -217,5 +219,9 @@ footer, main > section:not(.jumbotron){
 
     .card{
         width: 100%;
+    }
+
+    .col_extra{
+        display: none;
     }
 }
